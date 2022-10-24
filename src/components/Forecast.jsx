@@ -1,11 +1,8 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { iconUrlFromCode } from '../service/weatherService'
 
 function Forecast({ title, items }) {
 
-  // useEffect(()=>{
-  //   console.log(items)
-  // },[])
   return (
     <div>
       <div className='flex items-center justify-start mt-6'>

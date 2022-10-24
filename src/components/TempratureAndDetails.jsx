@@ -1,5 +1,5 @@
 import React from 'react';
-import { UilArrowUp, UilArrowDown, UilTemperature, UilTear, UilWind, UilSun, UilSunset } from '@iconscout/react-unicons'
+import { UilTemperature, UilTear, UilWind, UilSun, UilSunset } from '@iconscout/react-unicons'
 import { formatToLocalTime, iconUrlFromCode } from '../service/weatherService';
 
 
